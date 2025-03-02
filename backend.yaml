@@ -56,4 +56,4 @@
       login_user: root
       login_password: ExpenseApp@1
       login_host: mysql.nirmala02.site
-      target: /app/scheme/backend.sql      
+      target: /app/schema/backend.sql      
