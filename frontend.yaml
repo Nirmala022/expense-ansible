@@ -1,4 +1,4 @@
-- name: configure backend server
+- name: configure frontend server
   hosts: frontend
   become: yes
   tasks:
@@ -7,7 +7,7 @@
       name: nginx
       state: installed
 
-  - name: enable and star nginx 
+  - name: enable and start nginx 
     ansible.builtin.service:
       name: nginx
       state: started
