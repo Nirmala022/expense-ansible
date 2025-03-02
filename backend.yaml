@@ -8,4 +8,8 @@
   - name: enable nodejs 20
     ansible.builtin.package:
       name: nodejs
-      state: present  
+      state: present
+
+  - name: create expense user
+    ansible.builtin.user:
+      name: expense      
